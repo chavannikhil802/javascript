@@ -22,3 +22,16 @@ c["friend"] = "Shubham";
 c["section"] = 3;
 console.log(c);
 
+// Question 5 - Write a JS program to create a word-meaning dictionary of 5 words
+const dictionary = {
+    arrogant: "thinking that you are better and more important than other people.",
+    beautiful: "very pretty or attractive; giving pleasure to the senses.",
+    colleague: "a person who works at the same place as you.",
+    democracy: "a system in which the government of a country is elected by the people."
+};
+
+console.log(dictionary);
+// DIFFERENT WAYS TO PRINT THE OBJECT DATA
+console.log(dictionary.arrogant);
+console.log(dictionary['colleague']);
+
