@@ -14,7 +14,11 @@ const c  = {
     isPrincipal: false
 };
 
-c = 24;
+// c = 24;
 // You cannot change the value of a constant variable
 
+// Question 4 - Try to add a new key to the const object in problem 3.
+c["friend"] = "Shubham";
+c["section"] = 3;
+console.log(c);
 
